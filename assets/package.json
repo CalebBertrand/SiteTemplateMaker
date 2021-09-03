@@ -1,0 +1,27 @@
+{
+    "name": "TCF",
+    "version": "1.0.0",
+    "description": "Temecula Christian Fellowship",
+    "main": "gulpfile.js",
+    "scripts": {
+        "test": "gulp"
+    },
+    "keywords": [
+        "Temecula, Christian, Fellowship, Church"
+    ],
+    "author": "Caleb Bertrand",
+    "license": "ISC",
+    "dependencies": {
+        "browser-sync": "^2.24.7",
+        "del": "^3.0.0",
+        "gulp": "^3.9.1",
+        "gulp-cache": "^1.0.1",
+        "gulp-imagemin": "^3.4.0",
+        "gulp-sass": "^3.1.0",
+        "gulp-uglify": "^3.0.1",
+        "run-sequence": "^2.2.0"
+    },
+    "devDependencies": {
+        "gulp-autoprefixer": "^6.0.0"
+    }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "sitetemplatemaker",
+  "version": "1.0.0",
+  "description": "A very simple app that automatically sets up the structure of a site and creates a gulpfile for you project if using SASS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Caleb Bertrand",
+  "license": "MIT",
+  "dependencies": {
+    "browser-sync": "^2.18.13",
+    "del": "^3.0.0",
+    "fs-extra": "^4.0.2",
+    "gulp": "^3.9.1",
+    "gulp-cache": "^1.0.1",
+    "gulp-imagemin": "^3.4.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "run-sequence": "^2.2.0",
+    "starwars-names": "^1.6.0"
+  }
+}
